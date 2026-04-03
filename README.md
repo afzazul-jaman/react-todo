@@ -1,16 +1,43 @@
-# React + Vite
+# React Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **React Todo List App** built with React functional components and hooks.  
+You can **add tasks**, **delete tasks**, **clear all tasks**, and prevent **duplicate or empty entries**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠 Features
 
-## React Compiler
+- Add new todos
+- Prevent adding empty todos
+- Prevent duplicate todos (case-insensitive)
+- Delete individual todos
+- Clear all todos at once
+- Press **Enter** key to add tasks quickly
+- Simple and responsive UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📦 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** (Functional Components + Hooks)
+- **JavaScript**
+- **CSS**
+
+---
+
+## ⚡ How it works
+
+1. **Add Task**  
+   - Type in the input and click **Add** or press **Enter**.
+   - If input is empty, shows alert: `"NO DATA YET"`.
+   - If duplicate, shows alert: `"SAME DATA NOT ALLOWED"`.
+
+2. **Delete Task**  
+   - Click the **X** button next to a todo to remove it from the list.
+
+3. **Clear All Tasks**  
+   - Click **All Clear** to remove all todos. Shows confirmation before clearing.
+
+---
+
+## 📂 File Structure
